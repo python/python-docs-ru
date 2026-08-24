@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Daniil Kolesnikov, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 14:51+0000\n"
+"POT-Creation-Date: 2026-08-23 14:16+0000\n"
 "PO-Revision-Date: 2026-02-19 14:44+0000\n"
+"Last-Translator: Daniil Kolesnikov, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -21,21 +25,24 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Improve a documentation page"
-msgstr ""
+msgstr "Улучшить страницу документации"
 
 msgid ""
 "We are always interested to hear ideas about improvements to the "
 "documentation."
-msgstr ""
+msgstr "Мы всегда рады услышать предложения по улучшению документации."
 
 msgid ""
 "If the bug or suggested improvement concerns the translation of this "
 "documentation, open an issue or edit the page in `translation's repository "
 "<TRANSLATION_REPO_>`_ instead."
 msgstr ""
+"Если обнаруженная ошибка или предложение по улучшению касается перевода "
+"данной документации, создайте заявку или отредактируйте страницу в "
+"`репозитории перевода <TRANSLATION_REPO_>`_."
 
 msgid "You have a few ways to ask questions or suggest changes:"
-msgstr ""
+msgstr "У вас есть несколько способов задать вопросы или предложить изменения:"
 
 msgid ""
 "You can start a discussion about the page on the Python discussion forum. "
@@ -43,9 +50,17 @@ msgid ""
 "Documentation topic <https://discuss.python.org/new-topic?"
 "category=documentation>`_."
 msgstr ""
+"Вы можете начать обсуждение этой страницы на форуме обсуждения Python. По "
+"этой ссылке будет создана тема в разделе \"Документация\": `Новая тема в "
+"разделе \"Документация\"<https://discuss.python.org/new-topic?"
+"category=documentation>`_."
 
 msgid ""
 "You can open an issue on the Python GitHub issue tracker. This link will "
 "create a new issue with the \"docs\" label: `New docs issue <https://github."
 "com/python/cpython/issues/new?template=documentation.yml>`_."
 msgstr ""
+"Вы можете создать issue в системе отслеживания ошибок репозитория Python на "
+"GitHub. По этой ссылке будет создана новая задача с меткой \"docs\": `Новая "
+"issue по документации <https://github.com/python/cpython/issues/new?"
+"template=documentation.yml>`_."
