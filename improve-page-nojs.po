@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Вы можете начать обсуждение этой страницы на форуме обсуждения Python. По "
 "этой ссылке будет создана тема в разделе \"Документация\": `Новая тема в "
-"разделе \"Документация\"<https://discuss.python.org/new-topic?"
+"разделе \"Документация\" <https://discuss.python.org/new-topic?"
 "category=documentation>`_."
 
 msgid ""
