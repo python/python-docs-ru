@@ -6,15 +6,16 @@
 # Translators:
 # python-doc bot, 2026
 # Dmitry Luschan, 2026
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 23:26+0000\n"
+"POT-Creation-Date: 2026-09-05 16:26+0000\n"
 "PO-Revision-Date: 2026-05-08 18:37+0000\n"
-"Last-Translator: Dmitry Luschan, 2026\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -1316,6 +1317,14 @@ msgid ""
 "`rlcompleter`. Color can also be controlled by :ref:`environment variables "
 "<using-on-controlling-color>`. (Contributed by Antonio Cuni and Pablo "
 "Galindo in :gh:`130472`.)"
+msgstr ""
+
+msgid ""
+"Tab completion now suggests module attributes in ``from ... import`` "
+"statements. Attributes can only be suggested once the module is imported, "
+"so :term:`stdlib` modules are imported automatically, while for other "
+"modules the completer offers to import them when :kbd:`Tab` is pressed a "
+"second time. (Contributed by Loïc Simon and Pablo Galindo in :gh:`140870`.)"
 msgstr ""
 
 msgid "New modules"
@@ -2711,6 +2720,17 @@ msgid ""
 "Removed the :class:`!CGIHTTPRequestHandler` class and the ``--cgi`` flag "
 "from the :program:`python -m http.server` command-line interface. They were "
 "deprecated in Python 3.13. (Contributed by Bénédikt Tran in :gh:`133810`.)"
+msgstr ""
+
+msgid "importlib"
+msgstr ""
+
+msgid ""
+"The ``load_module()`` methods of :class:`~importlib.abc.Loader` and its "
+"subclasses is removed. The import system will no longer call it when defined "
+"on custom subclasses. The method has been deprecated in favor of :meth:"
+"`~importlib.abc.Loader.exec_module` since Python 3.4. (Contributed by Brett "
+"Cannon in :gh:`97850`.)"
 msgstr ""
 
 msgid "importlib.resources"
