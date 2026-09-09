@@ -5,17 +5,17 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Dmitry Luschan, 2026
 # Daniil Kolesnikov, 2026
+# Dmitry Luschan, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 17:31+0000\n"
+"POT-Creation-Date: 2026-09-07 18:32+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Daniil Kolesnikov, 2026\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -55,11 +55,12 @@ msgstr ""
 "оболочка. Она поддерживает цветовое оформление, многострочное "
 "редактирование, просмотр истории и режим вставки. Чтобы отключить цвета, "
 "см. :ref:`using-on-controlling-color`. Функциональные клавиши предоставляют "
-"дополнительные возможности. Клавиша :kbd:`F1`включает интерактивный просмотр "
-"справки :mod:`pydoc`. Клавиша :kbd:`F2` позволяет просматривать историю "
-"команд без вывода и без приглашений :term:`>>>` и :term:`...`. Клавиша :kbd:"
-"`F3` включает «режим вставки», упрощающий вставку больших блоков кода. Для "
-"выхода из него и возврата к обычному режиму снова нажмите :kbd:`F3`."
+"дополнительные возможности. Клавиша :kbd:`F1` включает интерактивный "
+"просмотр справки :mod:`pydoc`. Клавиша :kbd:`F2` позволяет просматривать "
+"историю команд без вывода и без приглашений :term:`>>>` и :term:`...`. "
+"Клавиша :kbd:`F3` включает «режим вставки», упрощающий вставку больших "
+"блоков кода. Для выхода из него и возврата к обычному режиму снова нажмите :"
+"kbd:`F3`."
 
 msgid ""
 "When using the new interactive shell, exit the shell by typing :kbd:`exit` "
