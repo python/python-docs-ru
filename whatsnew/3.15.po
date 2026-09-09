@@ -5,17 +5,17 @@
 #
 # Translators:
 # python-doc bot, 2026
-# Dmitry Luschan, 2026
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2026
+# Dmitry Luschan, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 16:26+0000\n"
+"POT-Creation-Date: 2026-09-07 18:32+0000\n"
 "PO-Revision-Date: 2026-05-08 18:37+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2026\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -297,8 +297,8 @@ msgstr ""
 "X>` и переменную окружения :envvar:`PYTHON_LAZY_IMPORTS`. Оба принимают два "
 "значения: ``all`` делает все импорты ленивыми по умолчанию, а ``normal`` "
 "(значение по умолчанию) учитывает ключевое слово ``lazy`` в исходном коде. "
-"Функции :func:`sys.set_lazy_imports`и :func:`sys.get_lazy_imports` позволяют "
-"изменять и получать этот режим во время выполнения программы."
+"Функции :func:`sys.set_lazy_imports` и :func:`sys.get_lazy_imports` "
+"позволяют изменять и получать этот режим во время выполнения программы."
 
 msgid ""
 "For more selective control, :func:`sys.set_lazy_imports_filter` accepts a "
@@ -411,12 +411,12 @@ msgid ""
 "keys and values are hashable. A :class:`!frozendict` preserves insertion "
 "order, but comparison does not take order into account."
 msgstr ""
-"В модуль :mod:`builtins` добавлен новый :term:`неизменяемый` тип :class:"
-"`frozendict`. После создания его нельзя изменять. :class:`!frozendict` не "
-"является подклассом ``dict``; он напрямую наследуется от ``object``. :class:"
-"`!frozendict` является :term:`хешируемым`, если все его ключи и значения "
-"являются хешируемыми. :class:`!frozendict` сохраняет порядок вставки, но при "
-"сравнении порядок элементов не учитывается."
+"В модуль :mod:`builtins` добавлен новый :term:`неизменяемый <immutable>` "
+"тип :class:`frozendict`. После создания его нельзя изменять. :class:`!"
+"frozendict` не является подклассом ``dict``; он напрямую наследуется от "
+"``object``. :class:`!frozendict` является :term:`хешируемым <hashable>`, "
+"если все его ключи и значения являются хешируемыми. :class:`!frozendict` "
+"сохраняет порядок вставки, но при сравнении порядок элементов не учитывается."
 
 msgid "For example::"
 msgstr "Например::"
