@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Dmitry Luschan, 2025
+# Dmitry Luschan, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 17:31+0000\n"
+"POT-Creation-Date: 2026-09-07 18:32+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Dmitry Luschan, 2025\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -606,8 +606,8 @@ msgid ""
 "two positional arguments and one keyword argument: ``open(filename, mode, "
 "encoding=None)``"
 msgstr ""
-"Функция :func:`open` возвращает :term:`файловый объект` и чаще всего "
-"вызывается с двумя позиционными аргументами и одним именованным: "
+"Функция :func:`open` возвращает :term:`файловый объект <file object>` и чаще "
+"всего вызывается с двумя позиционными аргументами и одним именованным: "
 "``open(filename, mode, encoding=None)``"
 
 msgid ">>> f = open('workfile', 'w', encoding=\"utf-8\")"
@@ -1016,8 +1016,9 @@ msgid ""
 "a :term:`text file` object opened for writing, we can do this::"
 msgstr ""
 "Другой вариант функции :func:`~json.dumps` — :func:`~json.dump` — "
-"сериализует объект прямо в :term:`текстовый файл`. Так, если ``f`` — объект :"
-"term:`текстового файла`, открытый для записи, можно сделать следующее::"
+"сериализует объект прямо в :term:`текстовый файл <text file>`. Так, если "
+"``f`` — объект :term:`текстового файла <text file>`, открытый для записи, "
+"можно сделать следующее::"
 
 msgid "json.dump(x, f)"
 msgstr "json.dump(x, f)"
@@ -1027,8 +1028,8 @@ msgid ""
 "file` object which has been opened for reading::"
 msgstr ""
 "Чтобы снова декодировать объект, если ``f`` — это объект :term:`бинарного "
-"файла` или :term:`текстового файла`, который был открыт для чтения, "
-"выполните::"
+"файла <binary file>` или :term:`текстового файла <text file>`, который был "
+"открыт для чтения, выполните::"
 
 msgid "x = json.load(f)"
 msgstr "x = json.load(f)"
@@ -1039,7 +1040,7 @@ msgid ""
 msgstr ""
 "Файлы JSON должны быть закодированы в UTF-8. Используйте "
 "``encoding=\"utf-8\"`` при открытии файла JSON в виде :term:`текстового "
-"файла` как для чтения, так и для записи."
+"файла <text file>` как для чтения, так и для записи."
 
 msgid ""
 "This simple serialization technique can handle lists and dictionaries, but "
