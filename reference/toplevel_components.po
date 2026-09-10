@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Dmitry Luschan, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 17:31+0000\n"
+"POT-Creation-Date: 2026-09-09 17:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +26,7 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Top-level components"
-msgstr ""
+msgstr "Компоненты верхнего уровня"
 
 msgid ""
 "The Python interpreter can get its input from a number of sources: from a "
@@ -33,9 +34,14 @@ msgid ""
 "interactively, from a module source file, etc.  This chapter gives the "
 "syntax used in these cases."
 msgstr ""
+"Интерпретатор Python может получать входные данные из нескольких источников: "
+"из сценария, переданного ему в качестве стандартного ввода или в качестве "
+"аргумента программы, из данных, введённых в интерактивном режиме, из "
+"исходного файла модуля и т. д. В этой главе описывается синтаксис, "
+"используемый в этих случаях."
 
 msgid "Complete Python programs"
-msgstr ""
+msgstr "Полные программы Python"
 
 msgid ""
 "While a language specification need not prescribe how the language "
@@ -47,11 +53,21 @@ msgid ""
 "`__main__`.  The latter is used to provide the local and global namespace "
 "for execution of the complete program."
 msgstr ""
+"Хотя спецификация языка не обязана предписывать, как вызывается "
+"интерпретатор языка, полезно иметь понятие полной программы Python. Полная "
+"программа Python выполняется в минимально инициализированном окружении: "
+"доступны все встроенные и стандартные модули, но ни один из них не "
+"инициализирован, за исключением :mod:`sys` (различные системные службы), :"
+"mod:`builtins` (встроенные функции, исключения и ``None``) и :mod:"
+"`__main__`. Последний используется для предоставления локального и "
+"глобального пространств имён при выполнении полной программы."
 
 msgid ""
 "The syntax for a complete Python program is that for file input, described "
 "in the next section."
 msgstr ""
+"Синтаксис полной программы Python совпадает с синтаксисом файлового ввода, "
+"описанным в следующем разделе."
 
 msgid ""
 "The interpreter may also be invoked in interactive mode; in this case, it "
@@ -60,6 +76,11 @@ msgid ""
 "identical to that of a complete program; each statement is executed in the "
 "namespace of :mod:`__main__`."
 msgstr ""
+"Интерпретатор также может быть вызван в интерактивном режиме. В этом случае "
+"он не считывает и не выполняет полную программу, а считывает и выполняет по "
+"одной инструкции (возможно, составной) за раз. Начальное окружение идентично "
+"окружению полной программы — каждая инструкция выполняется в пространстве "
+"имён :mod:`__main__`."
 
 msgid ""
 "A complete program can be passed to the interpreter in three forms: with "
@@ -68,83 +89,98 @@ msgid ""
 "is a tty device, the interpreter enters interactive mode; otherwise, it "
 "executes the file as a complete program."
 msgstr ""
+"Полная программа может быть передана интерпретатору в одной из трёх форм: с "
+"помощью параметра командной строки :option:`-c` *string*, в виде файла, "
+"переданного первым аргументом командной строки, либо через стандартный ввод. "
+"Если файл или стандартный ввод являются tty-устройством, интерпретатор "
+"переходит в интерактивный режим; в противном случае он выполняет файл как "
+"полную программу."
 
 msgid "File input"
-msgstr ""
+msgstr "Файловый ввод"
 
 msgid "All input read from non-interactive files has the same form:"
 msgstr ""
+"Весь ввод, считываемый из неинтерактивных файлов, имеет одну и ту же форму:"
 
 msgid "This syntax is used in the following situations:"
-msgstr ""
+msgstr "Этот синтаксис используется в следующих ситуациях:"
 
 msgid "when parsing a complete Python program (from a file or from a string);"
-msgstr ""
+msgstr "при разборе полной программы Python (из файла или из строки);"
 
 msgid "when parsing a module;"
-msgstr ""
+msgstr "при разборе модуля;"
 
 msgid "when parsing a string passed to the :func:`exec` function;"
-msgstr ""
+msgstr "при разборе строки, переданной функции :func:`exec`;"
 
 msgid "Interactive input"
-msgstr ""
+msgstr "Интерактивный ввод"
 
 msgid "Input in interactive mode is parsed using the following grammar:"
 msgstr ""
+"Ввод в интерактивном режиме разбирается с использованием следующей "
+"грамматики:"
 
 msgid ""
 "Note that a (top-level) compound statement must be followed by a blank line "
 "in interactive mode; this is needed to help the parser detect the end of the "
 "input."
 msgstr ""
+"Обратите внимание, что в интерактивном режиме за составной инструкцией "
+"(верхнего уровня) должна следовать пустая строка. Это необходимо, чтобы "
+"помочь синтаксическому анализатору обнаружить конец ввода."
 
 msgid "Expression input"
-msgstr ""
+msgstr "Ввод выражения"
 
 msgid ""
 ":func:`eval` is used for expression input.  It ignores leading whitespace. "
 "The string argument to :func:`eval` must have the following form:"
 msgstr ""
+"Функция :func:`eval` используется для ввода выражений. Она игнорирует "
+"ведущие пробельные символы. Строковый аргумент :func:`eval` должен иметь "
+"следующую форму:"
 
 msgid "interpreter"
-msgstr ""
+msgstr "интерпретатор"
 
 msgid "program"
-msgstr ""
+msgstr "программа"
 
 msgid "module"
-msgstr ""
+msgstr "модуль"
 
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 msgid "__main__"
-msgstr ""
+msgstr "__main__"
 
 msgid "builtins"
-msgstr ""
+msgstr "встроенные"
 
 msgid "interactive mode"
 msgstr "интерактивный режим"
 
 msgid "UNIX"
-msgstr ""
+msgstr "UNIX"
 
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 msgid "command line"
-msgstr ""
+msgstr "командная строка"
 
 msgid "standard input"
-msgstr ""
+msgstr "стандартный ввод"
 
 msgid "input"
-msgstr ""
+msgstr "входные данные"
 
 msgid "built-in function"
-msgstr ""
+msgstr "встроенная функция"
 
 msgid "eval"
-msgstr ""
+msgstr "eval"
