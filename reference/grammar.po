@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Vladimir, 2026
+# Dmitry Luschan, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 17:31+0000\n"
+"POT-Creation-Date: 2026-09-09 17:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Vladimir, 2026\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -26,31 +26,46 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Full Grammar specification"
-msgstr ""
+msgstr "Полная спецификация грамматики"
 
 msgid ""
 "This is the full Python grammar, derived directly from the grammar used to "
 "generate the CPython parser (see :source:`Grammar/python.gram`). The version "
 "here omits details related to code generation and error recovery."
 msgstr ""
+"Это полная грамматика Python, полученная непосредственно из грамматики, "
+"используемой для создания синтаксического анализатора CPython (см. :source:"
+"`Grammar/python.gram` ). Приведённая здесь версия опускает детали, связанные "
+"с генерацией кода и восстановлением после ошибок."
 
 msgid ""
 "The notation used here is the same as in the preceding docs, and is "
 "described in the :ref:`notation <notation>` section, except for an extra "
 "complication:"
 msgstr ""
+"Используемая здесь нотация совпадает с той, что применялась в предыдущих "
+"документах, и описана в разделе :ref:`нотация <notation>`, за исключением "
+"одного дополнительного усложнения:"
 
 msgid ""
 "``~`` (\"cut\"): commit to the current alternative; fail the rule if the "
 "alternative fails to parse"
 msgstr ""
+"``~`` («отсечение»): зафиксировать текущую альтернативу — если её не удаётся "
+"разобрать, правило целиком терпит неудачу"
 
 msgid ""
 "Python mainly uses cuts for optimizations or improved error messages. They "
 "often appear to be useless in the listing below."
 msgstr ""
+"Python в основном использует отсечения для оптимизации или улучшения "
+"сообщений об ошибках. В приведённом ниже списке они часто выглядят "
+"бесполезными."
 
 msgid ""
 "Cuts currently don't appear inside parentheses, brackets, lookaheads and "
 "similar. Their behavior in these contexts is deliberately left unspecified."
 msgstr ""
+"В настоящее время отсечения не встречаются внутри круглых и квадратных "
+"скобок, конструкций предпросмотра и подобных им. Их поведение в этих "
+"контекстах намеренно оставлено неопределённым."
