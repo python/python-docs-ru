@@ -5,17 +5,17 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Dmitry Luschan, 2026
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2026
+# Dmitry Luschan, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 17:49+0000\n"
+"POT-Creation-Date: 2026-09-19 16:52+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2026\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Input and output"
-msgstr ""
+msgstr "Ввод и вывод"
 
 msgid ""
 "There are several ways to present the output of a program; data can be "
@@ -40,7 +40,7 @@ msgstr ""
 "ввода и вывода."
 
 msgid "Fancier output formatting"
-msgstr ""
+msgstr "Продвинутое форматирование вывода"
 
 msgid ""
 "So far we've encountered two ways of writing values: *expression statements* "
@@ -223,7 +223,7 @@ msgstr ""
 "он предлагает гораздо меньше контроля над форматированием."
 
 msgid "Formatted string literals"
-msgstr ""
+msgstr "Форматированные строковые литералы"
 
 msgid ""
 ":ref:`Formatted string literals <f-strings>` (also called f-strings for "
@@ -318,7 +318,7 @@ msgstr ""
 "спецификации формата см. руководство по :ref:`formatspec`."
 
 msgid "The string format() method"
-msgstr ""
+msgstr "Строковой метод format()"
 
 msgid "Basic usage of the :meth:`str.format` method looks like this::"
 msgstr "Простое использование метода :meth:`str.format` выглядит так::"
@@ -485,7 +485,7 @@ msgstr ""
 "смотрите :ref:`formatstrings`."
 
 msgid "Manual string formatting"
-msgstr ""
+msgstr "Ручное форматирование строк"
 
 msgid "Here's the same table of squares and cubes, formatted manually::"
 msgstr ""
@@ -600,15 +600,17 @@ msgid ""
 msgstr "Больше информации можно найти в разделе :ref:`old-string-formatting`."
 
 msgid "Reading and writing files"
-msgstr ""
+msgstr "Чтение и запись файлов"
 
 msgid ""
 ":func:`open` returns a :term:`file object`, and is most commonly used with "
 "two positional arguments: ``open(filename, mode)``"
 msgstr ""
+":func:`open` возвращает :term:`файловый объект <file object>` и чаще всего "
+"используется с двумя позиционными аргументами: ``open(filename, mode)``"
 
 msgid ">>> f = open('workfile', 'w')"
-msgstr ""
+msgstr ">>> f = open('workfile', 'w')"
 
 msgid ""
 "The first argument is a string containing the filename.  The second argument "
@@ -637,6 +639,13 @@ msgid ""
 "mode`. Binary mode data is read and written as :class:`bytes` objects. You "
 "can not specify *encoding* when opening file in binary mode."
 msgstr ""
+"Обычно файлы открываются в :dfn:`текстовом режиме`, то есть вы читаете и "
+"записываете строки из файла и в файл, закодированные с определённой "
+"*кодировкой*. Если *кодировка* не указана, по умолчанию используется UTF-8 "
+"(см. :func:`open`). Добавление ``'b'`` к режиму открывает файл в :dfn:"
+"`двоичном режиме`. Данные в двоичном режиме читаются и записываются как "
+"объекты :class:`bytes`. Указывать *кодировку* при открытии файла в двоичном "
+"режиме нельзя."
 
 msgid ""
 "In text mode, the default when reading is to convert platform-specific line "
@@ -676,6 +685,12 @@ msgid ""
 ">>> f.closed\n"
 "True"
 msgstr ""
+">>> with open('workfile') as f:\n"
+"...     read_data = f.read()\n"
+"\n"
+">>> # Мы можем проверить, что файл был автоматически закрыт.\n"
+">>> f.closed\n"
+"True"
 
 msgid ""
 "If you're not using the :keyword:`with` keyword, then you should call ``f."
@@ -719,7 +734,7 @@ msgstr ""
 "ValueError: I/O operation on closed file."
 
 msgid "Methods of file objects"
-msgstr ""
+msgstr "Методы файловых объектов"
 
 msgid ""
 "The rest of the examples in this section will assume that a file object "
@@ -1018,6 +1033,8 @@ msgid ""
 "JSON files must be encoded in UTF-8, the default encoding for :term:`text "
 "files <text file>`."
 msgstr ""
+"Файлы JSON должны быть закодированы в UTF-8 — кодировке по умолчанию для :"
+"term:`текстовых файлов <text file>`."
 
 msgid ""
 "This simple serialization technique can handle lists and dictionaries, but "
