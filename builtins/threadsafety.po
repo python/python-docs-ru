@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Valery Rabchenyuk <valery0623@gmail.com>, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-13 17:08+0000\n"
+"POT-Creation-Date: 2026-09-29 18:58+0000\n"
 "PO-Revision-Date: 2026-09-13 17:09+0000\n"
+"Last-Translator: Valery Rabchenyuk <valery0623@gmail.com>, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -486,17 +490,14 @@ msgid ""
 "through all the passed iterables and do the following:"
 msgstr ""
 
-msgid ":meth:`set.update` and :meth:`set.union` lock both objects only when"
+msgid ""
+":meth:`set.update` and :meth:`set.union` lock both objects only when the "
+"other operand is a :class:`set`, :class:`frozenset`, or :class:`dict`."
 msgstr ""
 
 msgid ""
-"the other operand is a :class:`set`, :class:`frozenset`, or :class:`dict`."
-msgstr ""
-
-msgid ":meth:`set.intersection` and :meth:`set.difference` always try to lock"
-msgstr ""
-
-msgid "all objects."
+":meth:`set.intersection` and :meth:`set.difference` always try to lock all "
+"objects."
 msgstr ""
 
 msgid ":meth:`set.symmetric_difference` tries to lock both objects."
@@ -507,17 +508,14 @@ msgid ""
 "them:"
 msgstr ""
 
-msgid ":meth:`set.difference_update` and :meth:`set.intersection_update` try"
-msgstr ""
-
-msgid "to lock all objects one-by-one."
+msgid ""
+":meth:`set.difference_update` and :meth:`set.intersection_update` try to "
+"lock all objects one-by-one."
 msgstr ""
 
 msgid ""
-":meth:`set.symmetric_difference_update` only locks the arguments if it is"
-msgstr ""
-
-msgid "of type :class:`set`, :class:`frozenset`, or :class:`dict`."
+":meth:`set.symmetric_difference_update` only locks the arguments if it is of "
+"type :class:`set`, :class:`frozenset`, or :class:`dict`."
 msgstr ""
 
 msgid "The following methods always try to lock both objects:"
