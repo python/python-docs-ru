@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Dmitry Luschan, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 17:41+0000\n"
+"POT-Creation-Date: 2026-10-11 18:31+0000\n"
 "PO-Revision-Date: 2026-09-13 17:09+0000\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -21,10 +25,10 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Python built-ins reference"
-msgstr ""
+msgstr "Справочник по встроенным объектам Python"
 
 msgid "Python comes with a number of built-in functions and classes."
-msgstr ""
+msgstr "В составе Python есть ряд встроенных функций и классов."
 
 msgid ""
 "The built-in classes include data types that would normally be considered "
@@ -32,6 +36,10 @@ msgid ""
 "types, the Python language core defines the form of literals and places some "
 "constraints on their semantics, but does not fully define the semantics."
 msgstr ""
+"Встроенные классы включают типы данных, которые обычно считаются частью "
+"«ядра» языка, например числа и списки. Для этих типов ядро языка Python "
+"определяет вид литералов и накладывает некоторые ограничения на их "
+"семантику, но не определяет её полностью."
 
 msgid ""
 "The built-ins also include functions and exceptions --- objects that can be "
@@ -39,8 +47,14 @@ msgid ""
 "Some of these are defined by the core language, but many are not essential "
 "for the core semantics and are only described here."
 msgstr ""
+"Встроенные объекты также включают функции и исключения — объекты, которые "
+"любой код на Python может использовать без инструкции :keyword:`import`. "
+"Часть из них определяется ядром языка, но многие не являются необходимыми "
+"для семантики ядра и описаны только здесь."
 
 msgid ""
 "In addition to the built-ins, Python provides an extensive importable "
 "standard library, see :ref:`library-index`."
 msgstr ""
+"Помимо встроенных объектов, в Python есть обширная стандартная библиотека, "
+"которую можно импортировать. См. :ref:`library-index`."
