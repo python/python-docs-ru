@@ -1206,6 +1206,8 @@ msgid ""
 ":attr:`!__self__` is the module object the function was defined in or "
 "``None`` if unavailable."
 msgstr ""
+":attr:`!__self__` — объект модуля, в котором была определена функция, или "
+"``None``, если он недоступен."
 
 msgid ""
 ":attr:`!__module__` is the name of the module the function was defined in or "
