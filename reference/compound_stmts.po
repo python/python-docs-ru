@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Dmitry Luschan, 2025
 # python-doc bot, 2026
+# Dmitry Luschan, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 19:07+0000\n"
+"POT-Creation-Date: 2026-10-21 18:18+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2026\n"
+"Last-Translator: Dmitry Luschan, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
 "ru/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Compound statements"
-msgstr ""
+msgstr "Составные инструкции"
 
 msgid ""
 "Compound statements contain (groups of) other statements; they affect or "
@@ -34,6 +34,10 @@ msgid ""
 "compound statements span multiple lines, although in simple incarnations a "
 "whole compound statement may be contained in one line."
 msgstr ""
+"Составные инструкции содержат другие инструкции (или их группы) и тем или "
+"иным образом влияют на их выполнение или управляют ими. Как правило, "
+"составные инструкции занимают несколько строк, хотя в простых случаях вся "
+"составная инструкция может уместиться и в одной строке."
 
 msgid ""
 "The :keyword:`if`, :keyword:`while` and :keyword:`for` statements implement "
@@ -43,6 +47,12 @@ msgid ""
 "code around a block of code.  Function and class definitions are also "
 "syntactically compound statements."
 msgstr ""
+"Инструкции :keyword:`if`, :keyword:`while` и :keyword:`for` реализуют "
+"традиционные конструкции потока управления. :keyword:`try` задаёт "
+"обработчики исключений и (или) код очистки для группы инструкций, а "
+"инструкция :keyword:`with` позволяет выполнять код инициализации и "
+"завершения вокруг блока кода. Определения функций и классов также "
+"синтаксически являются составными инструкциями."
 
 msgid ""
 "A compound statement consists of one or more 'clauses.'  A clause consists "
