@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2026
 # python-doc bot, 2026
 #
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 18:01+0000\n"
+"POT-Creation-Date: 2026-10-27 19:03+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
@@ -201,7 +202,7 @@ msgstr ""
 msgid "The following sections describe how each of these are used."
 msgstr ""
 
-msgid "prog"
+msgid "``prog``"
 msgstr ""
 
 msgid ""
@@ -262,7 +263,7 @@ msgid ""
 "executed, rather than always being ``os.path.basename(sys.argv[0])``."
 msgstr ""
 
-msgid "usage"
+msgid "``usage``"
 msgstr ""
 
 msgid ""
@@ -300,7 +301,7 @@ msgid ""
 "usage information across subparsers."
 msgstr ""
 
-msgid "description"
+msgid "``description``"
 msgstr ""
 
 msgid ""
@@ -316,7 +317,7 @@ msgid ""
 "given space.  To change this behavior, see the formatter_class_ argument."
 msgstr ""
 
-msgid "epilog"
+msgid "``epilog``"
 msgstr ""
 
 msgid ""
@@ -346,7 +347,7 @@ msgid ""
 "argument to :class:`ArgumentParser`."
 msgstr ""
 
-msgid "parents"
+msgid "``parents``"
 msgstr ""
 
 msgid ""
@@ -386,7 +387,7 @@ msgid ""
 "not be reflected in the child."
 msgstr ""
 
-msgid "formatter_class"
+msgid "``formatter_class``"
 msgstr ""
 
 msgid ""
@@ -507,7 +508,7 @@ msgid ""
 "  --foo int"
 msgstr ""
 
-msgid "prefix_chars"
+msgid "``prefix_chars``"
 msgstr ""
 
 msgid ""
@@ -531,7 +532,7 @@ msgid ""
 "disallowed."
 msgstr ""
 
-msgid "fromfile_prefix_chars"
+msgid "``fromfile_prefix_chars``"
 msgstr ""
 
 msgid ""
@@ -585,7 +586,7 @@ msgid ""
 "ANSI Codepage on Windows."
 msgstr ""
 
-msgid "argument_default"
+msgid "``argument_default``"
 msgstr ""
 
 msgid ""
@@ -609,7 +610,7 @@ msgid ""
 "Namespace()"
 msgstr ""
 
-msgid "allow_abbrev"
+msgid "``allow_abbrev``"
 msgstr ""
 
 msgid ""
@@ -630,7 +631,7 @@ msgid ""
 "PROG: error: unrecognized arguments: --foon"
 msgstr ""
 
-msgid "conflict_handler"
+msgid "``conflict_handler``"
 msgstr ""
 
 msgid ""
@@ -677,7 +678,7 @@ msgid ""
 "option string was overridden."
 msgstr ""
 
-msgid "add_help"
+msgid "``add_help``"
 msgstr ""
 
 msgid ""
@@ -718,7 +719,7 @@ msgid ""
 "  +h, ++help  show this help message and exit"
 msgstr ""
 
-msgid "exit_on_error"
+msgid "``exit_on_error``"
 msgstr ""
 
 msgid ""
@@ -746,7 +747,7 @@ msgid ""
 "Catching an argumentError"
 msgstr ""
 
-msgid "suggest_on_error"
+msgid "``suggest_on_error``"
 msgstr ""
 
 msgid ""
@@ -775,7 +776,7 @@ msgid ""
 "Changed default value of ``suggest_on_error`` from ``False`` to ``True``."
 msgstr ""
 
-msgid "color"
+msgid "``color``"
 msgstr ""
 
 msgid ""
@@ -883,7 +884,7 @@ msgstr ""
 msgid "The method returns an :class:`Action` object representing the argument."
 msgstr ""
 
-msgid "name or flags"
+msgid "``name`` or ``flags``"
 msgstr ""
 
 msgid ""
@@ -947,7 +948,7 @@ msgid ""
 " --foo-bar FOO-BAR"
 msgstr ""
 
-msgid "action"
+msgid "``action``"
 msgstr ""
 
 msgid ""
@@ -1129,7 +1130,7 @@ msgstr ""
 msgid "For more details, see :class:`Action`."
 msgstr ""
 
-msgid "nargs"
+msgid "``nargs``"
 msgstr ""
 
 msgid ""
@@ -1236,7 +1237,7 @@ msgid ""
 "``'store_const'``) set ``nargs=0``."
 msgstr ""
 
-msgid "const"
+msgid "``const``"
 msgstr ""
 
 msgid ""
@@ -1269,7 +1270,7 @@ msgid ""
 "``action='store_const'``."
 msgstr ""
 
-msgid "default"
+msgid "``default``"
 msgstr ""
 
 msgid ""
@@ -1362,7 +1363,7 @@ msgid ""
 "Namespace(foo='1')"
 msgstr ""
 
-msgid "type"
+msgid "``type``"
 msgstr ""
 
 msgid ""
@@ -1460,7 +1461,7 @@ msgid ""
 "using the choices_ keyword instead."
 msgstr ""
 
-msgid "choices"
+msgid "``choices``"
 msgstr ""
 
 msgid ""
@@ -1511,7 +1512,7 @@ msgid ""
 "are many choices), just specify an explicit metavar_."
 msgstr ""
 
-msgid "required"
+msgid "``required``"
 msgstr ""
 
 msgid ""
@@ -1542,7 +1543,7 @@ msgid ""
 "*options* to be *optional*, and thus they should be avoided when possible."
 msgstr ""
 
-msgid "help"
+msgid "``help``"
 msgstr ""
 
 msgid ""
@@ -1594,7 +1595,7 @@ msgid ""
 "  -h, --help  show this help message and exit"
 msgstr ""
 
-msgid "metavar"
+msgid "``metavar``"
 msgstr ""
 
 msgid ""
@@ -1670,7 +1671,7 @@ msgid ""
 " --foo bar baz"
 msgstr ""
 
-msgid "dest"
+msgid "``dest``"
 msgstr ""
 
 msgid ""
@@ -1734,7 +1735,7 @@ msgstr ""
 msgid "Single-dash long option now takes precedence over short options."
 msgstr ""
 
-msgid "deprecated"
+msgid "``deprecated``"
 msgstr ""
 
 msgid ""
