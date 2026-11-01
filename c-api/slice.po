@@ -81,8 +81,8 @@ msgstr ""
 
 msgid ""
 "This function is considered not safe for resizable sequences. Its invocation "
-"should be replaced by a combination of :c:func:`PySlice_Unpack` and :c:func:"
-"`PySlice_AdjustIndices` where ::"
+"should be replaced by a combination of :c:func:`PySlice_Unpack` "
+"and :c:func:`PySlice_AdjustIndices` where ::"
 msgstr ""
 
 msgid ""
@@ -147,13 +147,13 @@ msgid "Ellipsis Object"
 msgstr ""
 
 msgid ""
-"The type of Python :const:`Ellipsis` object.  Same as :class:`types."
-"EllipsisType` in the Python layer."
+"The type of Python :const:`Ellipsis` object.  Same "
+"as :class:`types.EllipsisType` in the Python layer."
 msgstr ""
 
 msgid ""
-"The Python ``Ellipsis`` object.  This object has no methods.  Like :c:data:"
-"`Py_None`, it is an :term:`immortal` singleton object."
+"The Python ``Ellipsis`` object.  This object has no methods.  "
+"Like :c:data:`Py_None`, it is an :term:`immortal` singleton object."
 msgstr ""
 
 msgid ":c:data:`Py_Ellipsis` is immortal."
