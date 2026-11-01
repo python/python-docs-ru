@@ -66,8 +66,8 @@ msgid "The ``2`` in ``3.4.1a2``. Zero for final releases."
 msgstr ""
 
 msgid ""
-"The Python version number encoded in a single integer. See :c:func:"
-"`Py_PACK_FULL_VERSION` for the encoding details."
+"The Python version number encoded in a single integer. "
+"See :c:func:`Py_PACK_FULL_VERSION` for the encoding details."
 msgstr ""
 
 msgid ""
@@ -84,9 +84,9 @@ msgid "Run-time version"
 msgstr ""
 
 msgid ""
-"The Python runtime version number encoded in a single constant integer. See :"
-"c:func:`Py_PACK_FULL_VERSION` for the encoding details. This contains the "
-"Python version used at run time."
+"The Python runtime version number encoded in a single constant integer. "
+"See :c:func:`Py_PACK_FULL_VERSION` for the encoding details. This contains "
+"the Python version used at run time."
 msgstr ""
 
 msgid ""
