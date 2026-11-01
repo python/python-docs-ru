@@ -60,8 +60,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-":mod:`importlib.resources` follows the same security model as the built-in :"
-"func:`open` function. Passing untrusted inputs to the functions in this "
+":mod:`importlib.resources` follows the same security model as the built-"
+"in :func:`open` function. Passing untrusted inputs to the functions in this "
 "module is unsafe."
 msgstr ""
 
@@ -79,8 +79,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Represents an anchor for resources, either a :class:`module object <types."
-"ModuleType>` or a module name as a string. Defined as ``Union[str, "
+"Represents an anchor for resources, either a :class:`module object "
+"<types.ModuleType>` or a module name as a string. Defined as ``Union[str, "
 "ModuleType]``."
 msgstr ""
 
@@ -142,8 +142,9 @@ msgid "For all the following functions:"
 msgstr ""
 
 msgid ""
-"*anchor* is an :class:`~importlib.resources.Anchor`, as in :func:`~importlib."
-"resources.files`. Unlike in ``files``, it may not be omitted."
+"*anchor* is an :class:`~importlib.resources.Anchor`, as "
+"in :func:`~importlib.resources.files`. Unlike in ``files``, it may not be "
+"omitted."
 msgstr ""
 
 msgid ""
