@@ -5,9 +5,7 @@ All translations are done on [Transifex](https://explore.transifex.com/python-do
 ## Repository Branches
 
 `main` contains only the infrastructure (README and `.github/`); the translations
-themselves live in per-version branches. See
-[Transifex](https://app.transifex.com/python-doc/python-newest/language/ru/)
-for the current translation progress.
+themselves live in per-version branches.
 
 | Branch | Python | Status | Notes |
 | --- | --- | --- | --- |
