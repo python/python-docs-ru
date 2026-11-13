@@ -2,6 +2,30 @@
 
 All translations are done on [Transifex](https://explore.transifex.com/python-doc/python-newest/).
 
+## Repository Branches
+
+`main` contains only the infrastructure (README and `.github/`); the translations
+themselves live in per-version branches. See
+[Transifex](https://app.transifex.com/python-doc/python-newest/language/ru/)
+for the current translation progress.
+
+| Branch | Python | Status | Translation | Notes |
+| --- | --- | --- | --- | --- |
+| [`3.15`](https://github.com/python/python-docs-ru/tree/3.15) | 3.15 | current | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
+| [`3.14`](https://github.com/python/python-docs-ru/tree/3.14) | 3.14 | bugfix | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
+| [`3.13`](https://github.com/python/python-docs-ru/tree/3.13) | 3.13 | security | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
+| [`3.12`](https://github.com/python/python-docs-ru/tree/3.12) | 3.12 | security | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
+| [`3.11`](https://github.com/python/python-docs-ru/tree/3.11) | 3.11 | security | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
+| [`3.10`](https://github.com/python/python-docs-ru/tree/3.10) | 3.10 | inactive | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · not synced | Sync disabled |
+| [`3.9`](https://github.com/python/python-docs-ru/tree/3.9) | 3.9 | inactive | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · not synced | Sync disabled |
+
+"Status" reflects whether a branch is included in the automated Transifex sync,
+not the date of its last commit. A branch can be inactive even if it was updated
+recently, and older translations stay available on
+[docs.python.org](https://docs.python.org/) even after sync is turned off.
+Versions 2.6–3.8 are available there as well, but they are not maintained in
+this repository.
+
 ## Documentation Contribution Agreement
 
 NOTE REGARDING THE LICENSE FOR TRANSLATIONS: Python's documentation is
