@@ -9,15 +9,15 @@ themselves live in per-version branches. See
 [Transifex](https://app.transifex.com/python-doc/python-newest/language/ru/)
 for the current translation progress.
 
-| Branch | Python | Status | Translation | Notes |
-| --- | --- | --- | --- | --- |
-| [`3.15`](https://github.com/python/python-docs-ru/tree/3.15) | 3.15 | current | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
-| [`3.14`](https://github.com/python/python-docs-ru/tree/3.14) | 3.14 | bugfix | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
-| [`3.13`](https://github.com/python/python-docs-ru/tree/3.13) | 3.13 | security | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
-| [`3.12`](https://github.com/python/python-docs-ru/tree/3.12) | 3.12 | security | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
-| [`3.11`](https://github.com/python/python-docs-ru/tree/3.11) | 3.11 | security | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · active | Synced daily |
-| [`3.10`](https://github.com/python/python-docs-ru/tree/3.10) | 3.10 | inactive | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · not synced | Sync disabled |
-| [`3.9`](https://github.com/python/python-docs-ru/tree/3.9) | 3.9 | inactive | [ru](https://app.transifex.com/python-doc/python-newest/language/ru/) · not synced | Sync disabled |
+| Branch | Python | Status | Notes |
+| --- | --- | --- | --- |
+| [`3.15`](https://github.com/python/python-docs-ru/tree/3.15) | 3.15 | current | Synced daily |
+| [`3.14`](https://github.com/python/python-docs-ru/tree/3.14) | 3.14 | bugfix | Synced daily |
+| [`3.13`](https://github.com/python/python-docs-ru/tree/3.13) | 3.13 | security | Synced daily |
+| [`3.12`](https://github.com/python/python-docs-ru/tree/3.12) | 3.12 | security | Synced daily |
+| [`3.11`](https://github.com/python/python-docs-ru/tree/3.11) | 3.11 | security | Synced daily |
+| [`3.10`](https://github.com/python/python-docs-ru/tree/3.10) | 3.10 | inactive | Sync disabled |
+| [`3.9`](https://github.com/python/python-docs-ru/tree/3.9) | 3.9 | inactive | Sync disabled |
 
 "Status" reflects whether a branch is included in the automated Transifex sync,
 not the date of its last commit. A branch can be inactive even if it was updated
