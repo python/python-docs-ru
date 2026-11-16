@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 18:23+0000\n"
+"POT-Creation-Date: 2026-11-15 19:30+0000\n"
 "PO-Revision-Date: 2026-05-08 18:37+0000\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/python-doc/teams/5390/"
@@ -3845,6 +3845,30 @@ msgid ":c:func:`PyFrozenDict_New`"
 msgstr ""
 
 msgid "(Contributed by Victor Stinner in :gh:`141510`.)"
+msgstr ""
+
+msgid "Add the :pep:`757` export/import functions to the limited C API:"
+msgstr ""
+
+msgid ":c:func:`PyLong_GetNativeLayout`"
+msgstr ""
+
+msgid ":c:func:`PyLong_Export`"
+msgstr ""
+
+msgid ":c:func:`PyLong_FreeExport`"
+msgstr ""
+
+msgid ":c:func:`PyLongWriter_Create`"
+msgstr ""
+
+msgid ":c:func:`PyLongWriter_Finish`"
+msgstr ""
+
+msgid ":c:func:`PyLongWriter_Discard`"
+msgstr ""
+
+msgid "(Contributed by Sergey B Kirpichev in :gh:`143869`.)"
 msgstr ""
 
 msgid ""
